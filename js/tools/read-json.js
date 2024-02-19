@@ -1,7 +1,9 @@
 // read-json.js
 
+const filePath = '../../data/balance-sheet.json'; // Adjust the file path relative to your server root or adjust it as needed
+
 // Define the function to read JSON file asynchronously using fetch
-export async function readJsonFile(filePath) {
+export async function readJsonFile() {
     try {
         const response = await fetch(filePath);
         if (!response.ok) {

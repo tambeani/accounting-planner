@@ -2,11 +2,9 @@
 
 import { readJsonFile } from '../tools/read-json.js'; // Import readJsonFile function from read-json.js
 
-const filePath = '../../data/balance-sheet.json'; // Adjust the file path relative to your server root or adjust it as needed
-
 // Function to read the JSON data from the file
 export function readBalanceSheet() {
-    return readJsonFile(filePath) || {}; // Return an empty object if file reading fails
+    return readJsonFile() || {}; // Return an empty object if file reading fails
 }
 
 // Function to write the JSON data to the file
