@@ -1,0 +1,43 @@
+{
+    "assets": { 
+        "current": [
+            {
+                "name": "Cash",
+                "description": "",
+                "values": [
+                    {
+                        "year": 2023,
+                        "amount": 7000
+                    }
+                ]
+            },
+            {
+                "name": "Temporary Investments",
+                "description": ""
+            },
+            {
+                "name": "Accounts Receivables",
+                "description": "Accounts receivable refers to the amounts owed to a business by its customers or clients for goods or services that have been delivered or provided on credit. In other words, it represents the money that the business expects to receive from its customers in the future.Accounts receivable are considered assets on the balance sheet because they represent future cash inflows"
+            },
+            {
+                "name": "Prepaid Expenses",
+                "description": "Prepaid expenses are considered assets because they represent resources that a company has already paid for but has not yet consumed or used up."
+            }
+        ],
+        "fixed": [
+            {
+                "name": "Property"
+            },
+            {
+                "name": "Land"
+            }
+        ],
+        "other": []
+    },
+    "liabilities": [{
+
+    }],
+    "equities":[{
+
+    }]
+}
